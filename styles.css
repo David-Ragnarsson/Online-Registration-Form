@@ -1,0 +1,110 @@
+h1 {
+  text-align:  center;
+color: black;
+}
+h2 {
+  text-align:  center;
+color: gray;
+
+}
+
+form {
+
+min-width: 300px;
+
+   padding: 10px 20px;
+
+   border-radius: 8px;
+text-align: left;
+
+}
+.flex-container {
+box-sizing: border-box;
+
+border: none;
+width: 100%;
+
+
+
+}
+.name {
+
+
+
+}
+.email {
+
+
+
+
+}
+.address {
+
+
+
+}
+.zip {
+
+
+}
+.phone {
+
+
+}
+.del {
+
+
+}
+#state {
+height: 40px;
+
+}
+button {
+  width: 90%;
+    font-size: 90px;
+     padding: 12px 0;
+     font-size: 18px;
+     border: none;
+     border-radius: 8px;
+     margin: 1.5rem auto 2.5rem;
+     display: block;
+     cursor: pointer;
+     background-color:  aqua;
+     color: white;
+
+}
+body {
+  margin: auto;
+    width: 100%;
+
+}
+input {
+  height: 50px;
+  width: 90%;
+  background-color: #e8eeef;
+  
+
+}
+label {
+display: flex;
+flex-direction: column;
+}
+textarea {
+height: 100px;
+width: 90%;
+background-color: #e8eeef;
+
+ }
+:checked {
+position: relative;
+
+}
+ chekckbox {
+
+
+}
+
+.newsletter {
+color: black;
+
+}
