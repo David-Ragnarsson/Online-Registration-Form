@@ -13,54 +13,56 @@
         font-size: 20px;
       }
     </style>
+    <title>THE CODE REVIEW</title>
     <!-- add FontAwesome here -->
 </head>
 <body>
 
-
+<div class="start">
 <h1>Sign up for our newsletter</h1>
 <h2>Get the latest on how your code is doing right now in your inbox</h2>
+</div>
 
-<div class="flex-container">
+
 
           <form>
 
             <fieldset>
 
-             <legend>Contact Information</legend>
+             <h1>Contact Information</h1>
 
               <div class="name">
               <label for="name">Full Name</label>
-              <input type="text" id="name" name="user-name">
-              <div>
+              <input type="text" required id="name" name="user-name">
+            </div>
                 <div class="email">
-              <label for="email" class="error-text">Email Address</label>
-              <input type="email" id="email" name="user-email">
-              <div>
+              <label for="email">Email Address</label>
+              <input type="email" required id="email" name="user-email">
+            </div>
                 <div class="phone">
               <label for="phone">Phone Number</label>
               <input type="tel" id="phone" name="user-phone">
 
-              <div>
+            </div>
                 <div class="address">
-                  <label for="address1">Streeet Address</label>
+                  <label for="address">Streeet Address</label>
               <input type="text" id="address" name="user-address">
-              <div>
+            </div>
                 <div class="city">
                   <label for="city">City</label>
               <input type="text" id="city" name="city">
-              <div>
+            </div>
                 <div class="state">
-                  <label for="state">Sate</label>
+                  <label for="state">State</label>
          <select id="state" name="user_state">
 
-         <option value="Alabama">Alabama</option>
+            <option value="Alabama">Alabama</option>
             <option value="Alaska">Alaska</option>
             <option value="Arizona">Arizona</option>
             <option value="Arkansas">Arkansas</option>
             <option value="California">California</option>
             <option value="Colorado">Colorado</option>
-<option value="Connecticut">Connecticut</option>
+            <option value="Connecticut">Connecticut</option>
             <option value="Delaware">Delaware</option>
             <option value="Florida">Florida</option>
             <option value="Georgia">Georgia</option>
@@ -93,7 +95,7 @@
             <option value="Pennsylvania">Pennsylvania</option>
             <option value="Rhode Island">Rhode Island</option>
             <option value="South Carolina">South Carolina</option>
-            <option value="South Dakota>South Dakota</option>
+            <option value="South Dakota">South Dakota</option>
             <option value="Tennessee">Tennessee</option>
             <option value="Texas">Texas</option>
             <option value="Utah">Utah</option>
@@ -103,40 +105,47 @@
             <option value="West Virginia">West Virginia</option>
             <option value="Wisconsin">Wisconsin</option>
             <option value="Wyoming">Wyoming</option>
+</div>
 
-              <div>
-                <div class="zip">
-              <label for="zip">Zip Code</label>
-              <input type="text" id="zip" name="user-zip">
 
-              <div>
+            <div class="zip">
+            <label for="zip">Zip Code</label>
+            <input type="text" id="zip" name="user-zip">
+          </div>
 
 
             </fieldset>
 
-            <fieldset>
-            <div class="newsletter"  <h2>Newsletter</h2> <div>
-              <p>Select the newsletters you would like to receive</p>
-              <label for="html-news">HTML News</label>
-                       <input type="checkbox" id="html-news" value="html-news" name="user_interest"><br>
-                         <label for="css-news">CSS News</label>
-                           <input type="checkbox" id="css-news" value="css-news" name="user_interest"> <br>
-                           <label for="javascript-news">Javascript News</label>
-                           <input type="checkbox" id="javascript-news" value="javascript-news" name="user_interest"> 
 
-                           </fieldset>
-                             <fieldset>
+            <div class="newsletter">
+              <h2>Newsletter</h2>
+              <p>Select the newsletters you would like to receive</p>
+               <input type="checkbox" id="html-news" value="html-news" name="user_interest">
+              <label for="html-news">HTML News</label>
+                      <br>
+                       <input type="checkbox" id="css-news" value="css-news" name="user_interest">
+                         <label for="css-news">CSS News</label>
+                            <br>
+                             <input type="checkbox" id="javascript-news" value="javascript-news" name="user_interest">
+                           <label for="javascript-news">Javascript News</label>
+
+
+
+                           <p>Newsletter format</p>
+
                                     <input type="radio" id="html" value="html" name="newsletter-format"><label for="html" class="light">HTML</label><br>
                                     <input type="radio" id="plain-text" value="plain-text" name="newsletter-format"><label for="plain-text" class="light">Plain text</label>
-</fieldset>
-          </form>
-          <div>
+
+
+
+
           <label for="other-topics">Other topics you´d like to hear about</label>
                         <textarea id="other-topics" name="other-topics"></textarea>
                       </div>
            <button type="submit">Sign Up</button>
-          </div>
-</div>
 
+
+  </form>
+<footer><p>Copyright The Code Review</p></footer>
 </body>
 </html>
