@@ -1,66 +1,98 @@
 h1 {
-  text-align:  center;
+
 color: black;
 }
 h2 {
-  text-align:  center;
+
 color: gray;
 
 }
-
+.start {
+  text-align: center;
+}
+.contact {
+  color:  black;
+}
 form {
 
-min-width: 300px;
-
-   padding: 10px 20px;
-
-   border-radius: 8px;
 text-align: left;
 
-}
-.flex-container {
-box-sizing: border-box;
-
-border: none;
-width: 100%;
-
 
 
 }
-.name {
 
 
+#name {
+  display: flex;
+  flex-direction: column;
+height: 40px;
+margin: .5rem;
 
-}
-.email {
-
-
-
-
-}
-.address {
-
-
+  width: 90%;
 
 }
-.zip {
+#email {
+  display: flex;
+  flex-direction: column;
+height: 40px;
+margin: .5rem;
+  width: 90%;
+}
+#phone {
+  display: flex;
+  flex-direction: column;
+ margin: .5rem;
+height: 40px;
+  width: 90%;
+}
+#address {
+  display: flex;
+  flex-direction: column;
 
+margin: .5rem;
+height: 40px;
+  width: 90%;
 
 }
-.phone {
-
-
-}
-.del {
-
-
+#city {
+  display: flex;
+  flex-direction: column;
+margin: .5rem;
+height: 40px;
+  width: 90%;
 }
 #state {
+  display: flex;
+  flex-direction: column;
+margin: .5rem;
 height: 40px;
+  width: 90%;
+  background-color: #e8eeef;
+  font-size: 20px;
+}
+
+#zip {
+  display: flex;
+  flex-direction: column;
+  margin: .5rem;
+  height: 40px;
+    width: 20%;
 
 }
+#html-news {
+
+
+}
+
+#html {
+
+
+}
+
+
+
 button {
-  width: 90%;
+  width: 80%;
     font-size: 90px;
      padding: 12px 0;
      font-size: 18px;
@@ -71,37 +103,52 @@ button {
      cursor: pointer;
      background-color:  aqua;
      color: white;
-
+height: 60px;
 }
 body {
-  margin: auto;
-    width: 100%;
+
+
 
 }
 input {
-  height: 50px;
-  width: 90%;
-  background-color: #e8eeef;
+
+
+    background-color: #e8eeef;
 
 
 }
 label {
-display: flex;
-flex-direction: column;
+
+}
+
+:checked {
+
+
 }
 textarea {
 height: 100px;
-width: 90%;
+width: 100%;
 background-color: #e8eeef;
 
+
  }
-:checked {
-position: relative;
-
-}
-
 
 .newsletter {
 color: black;
 
 }
+
+footer {
+text-align: center;
+font-style: italic;
+
+}
+
+@media (min-width: 768px) {
+body {
+
+margin: 0 20%;
+}
+
+}
+
