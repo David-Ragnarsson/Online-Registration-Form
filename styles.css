@@ -20,6 +20,10 @@ text-align: left;
 
 
 }
+
+input::placeholder {
+  text-align: right;
+}
 #name:focus {
 
 }
@@ -27,7 +31,7 @@ text-align: left;
 #name {
   display: flex;
   flex-direction: column;
-  text-align: right;
+
 height: 40px;
 margin: .5rem;
 
@@ -37,7 +41,7 @@ margin: .5rem;
 #email {
   display: flex;
   flex-direction: column;
-  text-align: right;
+
 height: 40px;
 margin: .5rem;
   width: 90%;
@@ -155,4 +159,3 @@ margin: 0 20%;
 }
 
 }
-
