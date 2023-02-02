@@ -1,15 +1,40 @@
+* {
+  box-sizing: border-box;
+}
 
+fieldset {
+  outline: none;
+  border: none;
+}
+
+.thick {
+  height: 3px;
+    background-color: black;
+  text-align: center;
+    width: 100%;
+    margin: 2px;
+}
+.thin {
+  height: 3px;
+    background-color: black;
+  text-align: center;
+    width: 100%;
+    margin: 2px;
+
+}
 h1 {
-
+font-size: 25px;
 color: black;
 }
 h2 {
-
+font-size: 18px;
 color: gray;
 
 }
 .start {
   text-align: center;
+  padding-bottom: 45px;
+
 }
 .contact {
   color:  black;
@@ -25,7 +50,7 @@ text-align: left;
 }
 legend {
 color: black;
-  font-size: 40px;
+  font-size: 25px;
   font-weight: bold;
 }
 input::placeholder {
@@ -158,55 +183,27 @@ font-style: italic;
 }
 
 @media (min-width: 768px) {
-body {
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
 
-margin: 0 20%;
-}
-#zip {
-display: inline-block;
-    width: 25%;
+  fieldset:first-of-type div {
+    display: flex;
+    align-items: center;
+  }
 
-}
-form {
+  fieldset:first-of-type div label {
+    flex-basis: 25%;
+  }
 
+  fieldset:first-of-type div input,
+  fieldset:first-of-type div select {
+    flex-basis: 75%;
+  }
 
-}
-
-label {
-
-
-}
-input {
-
-}
-
-#name {
-  display: inline-block;
-width: 75%;
-
-}
-#email {
-  display: inline-block;
-width: 75%;
-
-}
-#phone {
-  display: inline-block;
-width: 75%;
-}
-#address {
-  display: inline-block;
-width: 75%;
-
-}
-#city {
-  display: inline-block;
-width: 75%;
-
-}
-#state {
-  display: inline-block;
-width: 75%;
-
-}
+  #zip {
+    max-width: 25%;
+    margin-left: 2px
+  }
 }
