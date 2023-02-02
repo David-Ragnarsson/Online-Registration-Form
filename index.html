@@ -17,19 +17,16 @@
     <!-- add FontAwesome here -->
 </head>
 <body>
-
 <div class="start">
 <h1>Sign up for our newsletter</h1>
 <h2>Get the latest on how your code is doing right now in your inbox</h2>
 </div>
 
 
-
           <form>
 
             <fieldset>
-
-             <h1>Contact Information</h1>
+<legend>Contact Information</legend>
 
               <div class="name">
               <label for="name">Full Name</label>
@@ -47,7 +44,7 @@
 
             </div>
                 <div class="address">
-                  <label for="address">Streeet Address</label>
+                  <label for="address">Street Address</label>
               <input type="text" id="address" name="user-address">
             </div>
                 <div class="city">
@@ -116,9 +113,10 @@
 
             </fieldset>
 
-
+  <fieldset>
             <div class="newsletter">
-              <h2>Newsletter</h2>
+              <legend>Newsletter</legend>
+
               <p>Select the newsletters you would like to receive</p>
                <input type="checkbox" id="html-news" value="html-news" name="user_interest">
               <label for="html-news">HTML News</label>
@@ -130,8 +128,8 @@
                            <label for="javascript-news">Javascript News</label>
 
 
+ <p>Newsletter format</p>
 
-                           <p>Newsletter format</p>
 
                                     <input type="radio" id="html" value="html" name="newsletter-format"><label for="html" class="light">HTML</label><br>
                                     <input type="radio" id="plain-text" value="plain-text" name="newsletter-format"><label for="plain-text" class="light">Plain text</label>
@@ -144,7 +142,7 @@
                       </div>
            <button type="submit">Sign Up</button>
 
-
+</fieldset>
   </form>
 <footer><p>Copyright The Code Review</p></footer>
 </body>
